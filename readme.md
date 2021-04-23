@@ -40,6 +40,7 @@
       <ul>
         <li><a href="#authentication-tests">Authentication Tests</a></li>
         <li><a href="#not-sanitized-inputs">Not Sanitized Inputs</a></li>
+        <li><a href="#information-disclosure-on-errors">Information Disclosure on Errors</a></li>
       </ul>
     </li>
     <li>
