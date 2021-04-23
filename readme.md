@@ -230,11 +230,11 @@ ubuntu3.4 at 192.168.1.30 Port 80
 <br>
 
 
-## Learning Material
+## Learning Material 👨‍🎓
 In Cybersecurity, we find a community that likes to share its knowledge and it is easy to find a lot of interesting material, below you can find some topics with learning resources and tools.
 
 <!-- ACKNOWLEDGEMENTS -->
-### Awesome Resources
+### Awesome Resources 📚
 
 * [Gitbook by Pedro Tavares](https://gitbook.seguranca-informatica.pt/)
 * [Cobalt Blog](https://cobalt.io/blog)
@@ -244,10 +244,11 @@ In Cybersecurity, we find a community that likes to share its knowledge and it i
 <p>  
 
 <!-- ACKNOWLEDGEMENTS -->
-### Awesome Tools
+### Awesome Tools 🔨
 
 * [Project Discovery](https://github.com/projectdiscovery)
 * [FeroxBuster](https://github.com/epi052/feroxbuster)
+* [SQLMap](https://github.com/sqlmapproject/sqlmap)
   
 <p>  
 
