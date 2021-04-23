@@ -197,7 +197,24 @@ you should learn in order to exploit weakness in inputs sanitization.
 **Learn about:** `Types of XSS` `SQL Injection` `HTML Injection` `Server Side Template Injection` 
 `Local File Inclusion` `Command Injection`
 
+<br>
 
+<!-- Information Errors -->
+## Information Disclosure on Errors 🔡
+
+Errors can give you good information about the plataform, so try to trigger them!
+```
+1. Stack Trace in Error Message
+
+Try to put special characters in urls and inputs, and observe de strack trace.
+If you receive SQL errors, you could try SQLi.
+
+2. Customized Error Messages
+
+Try trigger errors on directories in url. 
+Error messages should be customized to not show personal information about the plataform. 
+Some errors display Internal IP addresses or technology in use like: Apache/2.2.22 (Linux) PHP/7.0.0-1ubuntu3.4 at 192.168.1.30 Port 80
+```
 
 <br>
 
