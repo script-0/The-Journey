@@ -162,7 +162,7 @@ See what errors are displayed when you try wrong credentials. If the web applica
 <br>
 
 <!-- Not Sanitized Inputs-->
-## Not Sanitized Inputs 🧨
+## Weak or Non Existent Sanitization 🧨
 
 An extremely common vulnerability is the lack of sanitization of inputs. When this happens, it is normal to be able to explore XSS or SQL Injection for example.
 
@@ -187,12 +187,23 @@ Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
 
 Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for your payload.
 When we intercept the request, we already bypass the HTML security. 
+
+
+5. Multiple vulnerabilities
+
+If you find some input that is not sanitized, you can try multiple types of vulnerabilities. Below you find a list of the vulnerabilities 
+you should learn in order to exploit weakness in inputs sanitization.
 ```
+**Learn about:** `Types of XSS` `SQL Injection` `HTML Injection` `Server Side Template Injection` 
+`Local File Inclusion` `Command Injection`
+
+
 
 <br>
 
 
 ## Learning Material
+In Cybersecurity, we find a community that likes to share its knowledge and it is easy to find a lot of interesting material, below you can find some topics with learning resources and tools.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Awesome Resources
