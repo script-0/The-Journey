@@ -131,7 +131,8 @@ Since this project was designed for people who are starting out in the field, th
 ```
 1. Credentials or Important Data sent over HTTP
 
-Intercept authentication related methods like: Login, Account Registration, Password Recovery, Password Reset.
+Intercept authentication related methods like: Login, Account Registration, Password Recovery and 
+Password Reset.
 Check for important data sent through HTTP.
 If the information is being sent over HTTPS, change to HTTP and observe if data are sent.
 
@@ -141,7 +142,9 @@ If the information is being sent over HTTPS, change to HTTP and observe if data 
 Create an account (some mechanism can block the account).
 Intercept login request and sent request to intruder. 
 Use multiple random data and check if you are blocked by any protection mechanism.
-Tip: If after test brute-force mechanism doesn't block the account, try to disclose admin or possible staff email and try most common passwords. This way you make tests for Weakness Mechanisms and Default Passwords in use.
+Tip: If after test brute-force mechanism doesn't block the account, try to disclose admin or possible staff 
+email and try most common passwords. This way you make tests for Weakness Mechanisms and Default Passwords 
+in use.
 
 
 3. Weak Password Policy
@@ -157,7 +160,9 @@ Try X-Forwarded-For and check if after click the link you receive the request on
 
 5. Use authentication to enumerate
 
-See what errors are displayed when you try wrong credentials. If the web application show something like: The password is incorrect when you use correct username, but display Wrong Username when you use wrong username, you can performe enumeration of registered usernames. Same with emails.
+See what errors are displayed when you try wrong credentials. If the web application show something like: 
+The password is incorrect when you use correct username, but display Wrong Username when you use wrong 
+username, you can performe enumeration of registered usernames. Same with emails.
 ```
 
 <br>
@@ -186,14 +191,15 @@ Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
 
 4. Bypass HTML security mechanisms
 
-Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for your payload.
+Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change 
+for your payload.
 When we intercept the request, we already bypass the HTML security. 
 
 
 5. Multiple vulnerabilities
 
-If you find some input that is not sanitized, you can try multiple types of vulnerabilities. Below you find a list of the vulnerabilities 
-you should learn in order to exploit weakness in inputs sanitization.
+If you find some input that is not sanitized, you can try multiple types of vulnerabilities. Below you find 
+a list of the vulnerabilities you should learn in order to exploit weakness in inputs sanitization.
 ```
 **Learn about:** `Types of XSS` `SQL Injection` `HTML Injection` `Server Side Template Injection` 
 `Local File Inclusion` `Command Injection`
@@ -215,7 +221,8 @@ If you receive SQL errors, you could try SQLi.
 
 Try trigger errors on directories in url. 
 Error messages should be customized to not show personal information about the plataform. 
-Some errors display Internal IP addresses or technology in use like: Apache/2.2.22 (Linux) PHP/7.0.0-1ubuntu3.4 at 192.168.1.30 Port 80
+Some errors display Internal IP addresses or technology in use like: Apache/2.2.22 (Linux) PHP/7.0.0-1 
+ubuntu3.4 at 192.168.1.30 Port 80
 ```
 
 <br>
