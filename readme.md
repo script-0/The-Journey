@@ -166,10 +166,10 @@ Try what characters are allowed and processed by the Web Application like: / < >
 
 2. First payload I like to try: "><script>alert("XSS")</script>
 
-3. Always I find XSS vulnerability, I try SQL Injection on same parameter.
+3. Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
 
-4. Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for you payload.
-When we intercept request, we already bypass de HTML security. 
+4. Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for your payload.
+When we intercept the request, we already bypass the HTML security. 
 ```
 
 <br>
