@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bernardofsr">
-    <img src="images/logo.png" alt="Logo" width="150" height="150">
+    <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">𝒥𝑜𝓊𝓇𝓃𝑒𝓎 𝑜𝓃 𝒫𝑒𝓃𝓉𝑒𝓈𝓉𝒾𝓃𝑔 𝒲𝑜𝓇𝓁𝒹</h3>
