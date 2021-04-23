@@ -47,14 +47,14 @@
       </ul>
     </li>
     <li>
-    <a href="#learning-material">Learning Material</a>
+    <a href="#learning-material-">Learning Material</a>
       <ul>
-        <li><a href="#awesome-resources">Awesome Resources</a></li>
-        <li><a href="#awesome-tools">Awesome Tools</a></li>
+        <li><a href="#awesome-resources-">Awesome Resources</a></li>
+        <li><a href="#awesome-tools-">Awesome Tools</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact-">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -262,7 +262,7 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- CONTACT -->
-## Contact
+## Contact 📬
 
 [![Linkedin: bernardo](https://img.shields.io/badge/LinkedIn-Bernardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bernardofsrodrigues/)](https://www.linkedin.com/in/bernardofsrodrigues/)
 
