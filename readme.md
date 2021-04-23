@@ -41,9 +41,9 @@
     <li>
       <a href="#lets-testing">Let's Testing</a>
       <ul>
-        <li><a href="#authentication-tests">Authentication Tests</a></li>
-        <li><a href="#not-sanitized-inputs">Not Sanitized Inputs</a></li>
-        <li><a href="#information-disclosure-on-errors">Information Disclosure - Error Messages</a></li>
+        <li><a href="#authentication-tests-">Authentication Tests</a></li>
+        <li><a href="#not-sanitized-inputs-">Not Sanitized Inputs</a></li>
+        <li><a href="#information-disclosure-on-errors-">Information Disclosure - Error Messages</a></li>
       </ul>
     </li>
     <li>
