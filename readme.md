@@ -42,6 +42,13 @@
         <li><a href="#not-sanitized-inputs">Not Sanitized Inputs</a></li>
       </ul>
     </li>
+    <li>
+    <a href="#learning-material">Learning Material</a>
+      <ul>
+        <li><a href="#awesome-resources">Awesome Resources</a></li>
+        <li><a href="#awesome-tools">Awesome Tools</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -51,14 +58,13 @@
 ##
 
 <!-- About Me -->
-## About Me 
+## About Me 👨‍💻
 
 I'm Bernardo Rodrigues and I'm currently a Penetration Tester trainee at <a href="https://cipher.com">Cipher</a>. 
 
 
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project 🧩
 
 <p>Getting directly into the Cybersecurity without a working background in the area may not be the easiest situation in the world and perhaps the opportunities will not appear so quickly, but nothing is impossible and I hope you will be able to learn a few things from this project. <p>
 Penetration testing is a specific area of cybersecurity and requires knowledge of existing vulnerabilities and how to exploit them. Later on, links will be added to other projects and articles that may be important in learning and that helped me get into the field.
@@ -185,6 +191,26 @@ When we intercept the request, we already bypass the HTML security.
 
 <br>
 
+
+## Learning Material
+
+<!-- ACKNOWLEDGEMENTS -->
+## Awesome Resources
+
+* [Gitbook by Pedro Tavares](https://gitbook.seguranca-informatica.pt/)
+* [Cobalt Blog](https://cobalt.io/blog)
+  
+<p>  
+
+<!-- ACKNOWLEDGEMENTS -->
+## Awesome Tools
+
+* [Project Discovery](https://github.com/projectdiscovery)
+  
+<p>  
+
+
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -198,7 +224,6 @@ Contributions are what make the open source community such an amazing place to b
 [![Linkedin: bernardo](https://img.shields.io/badge/LinkedIn-Bernardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bernardofsrodrigues/)](https://www.linkedin.com/in/bernardofsrodrigues/)
 
 [![Email: bernardo](https://img.shields.io/badge/Email-Bernardo-blue?style=flat-square&logo=Protonmail&logoColor=white&link=mailto:bernardofsr@protonmail.com)](mailto:bernardofsr@protonmail.com)
-
 
 
 
