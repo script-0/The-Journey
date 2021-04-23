@@ -65,13 +65,14 @@
 ## About Me 👨‍💻
 
 I'm Bernardo Rodrigues and I'm currently a Penetration Tester trainee at <a href="https://cipher.com">Cipher</a>. 
-
+From a very early age, I was involved with computers until the taste for hacking was born. Nowadays I practice ethical hacking and I am passionate about offensive security, offensive physical security and social engineering. Everything that involves Red Team.
+This is my first professional experience as a Penetration Tester and in the area of Cybersecurity.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project 🧩
 
 <p>Getting directly into the Cybersecurity without a working background in the area may not be the easiest situation in the world and perhaps the opportunities will not appear so quickly, but nothing is impossible and I hope you will be able to learn a few things from this project. <p>
-Penetration testing is a specific area of cybersecurity and requires knowledge of existing vulnerabilities and how to exploit them. Later on, links will be added to other projects and articles that may be important in learning and that helped me get into the field.
+Penetration Testing is a specific area of cybersecurity and requires knowledge of existing vulnerabilities and how to exploit them. Later on, links will be added to other projects and articles that may be important in learning and that helped me get into the field.
 
 `The Journey` `Cybersecurity` `Pentest` `Hacking` `RedTeam`
 
