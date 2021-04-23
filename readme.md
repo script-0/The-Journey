@@ -40,7 +40,7 @@
       <ul>
         <li><a href="#authentication-tests">Authentication Tests</a></li>
         <li><a href="#not-sanitized-inputs">Not Sanitized Inputs</a></li>
-        <li><a href="#information-disclosure-on-errors">Information Disclosure on Errors</a></li>
+        <li><a href="#information-disclosure-on-errors">Information Disclosure - Error Messages</a></li>
       </ul>
     </li>
     <li>
@@ -124,7 +124,7 @@ Since this project was designed for people who are starting out in the field, th
 
 
 <!-- Authentication Tests-->
-## Authentication Tests 🔑
+### Authentication Tests 🔑
 
 "Authentication is the process of verifying that an individual, entity or website is whom it claims to be. Authentication in the context of web applications is commonly performed by submitting a username or ID and one or more items of private information that only a given user should know." - <a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html" target="_blank">OWASP</a>
 
@@ -163,7 +163,7 @@ See what errors are displayed when you try wrong credentials. If the web applica
 <br>
 
 <!-- Not Sanitized Inputs-->
-## Weak or Non Existent Sanitization 🧨
+### Weak or Non Existent Sanitization 🧨
 
 An extremely common vulnerability is the lack of sanitization of inputs. When this happens, it is normal to be able to explore XSS or SQL Injection for example.
 
@@ -201,7 +201,7 @@ you should learn in order to exploit weakness in inputs sanitization.
 <br>
 
 <!-- Information Errors -->
-## Information Disclosure on Errors 🔡
+### Information Disclosure - Error Messages 🔡
 
 Errors can give you good information about the plataform, so try to trigger them!
 ```
@@ -209,6 +209,7 @@ Errors can give you good information about the plataform, so try to trigger them
 
 Try to put special characters in urls and inputs, and observe de strack trace.
 If you receive SQL errors, you could try SQLi.
+
 
 2. Customized Error Messages
 
@@ -224,17 +225,20 @@ Some errors display Internal IP addresses or technology in use like: Apache/2.2.
 In Cybersecurity, we find a community that likes to share its knowledge and it is easy to find a lot of interesting material, below you can find some topics with learning resources and tools.
 
 <!-- ACKNOWLEDGEMENTS -->
-## Awesome Resources
+### Awesome Resources
 
 * [Gitbook by Pedro Tavares](https://gitbook.seguranca-informatica.pt/)
 * [Cobalt Blog](https://cobalt.io/blog)
+* [PortSwigger](https://portswigger.net/blog)
+* [PTSwarm](https://swarm.ptsecurity.com/)
   
 <p>  
 
 <!-- ACKNOWLEDGEMENTS -->
-## Awesome Tools
+### Awesome Tools
 
 * [Project Discovery](https://github.com/projectdiscovery)
+* [FeroxBuster](https://github.com/epi052/feroxbuster)
   
 <p>  
 
