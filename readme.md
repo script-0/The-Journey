@@ -8,7 +8,7 @@
   <h3 align="center">𝒥𝑜𝓊𝓇𝓃𝑒𝓎 𝑜𝓃 𝒫𝑒𝓃𝓉𝑒𝓈𝓉𝒾𝓃𝑔 𝒲𝑜𝓇𝓁𝒹</h3>
 
   <p align="center">
-    This project is mainly dedicated to people who are <br>starting in Cybersecurity, especially in the area of Penetration Testing.
+    This project is mainly dedicated to people who are <br>starting in Cybersecurity, especially in the area of Penetration Testing, like me.
     <br />
     </br>
     <a href="https://github.com/bernardofsr"><strong>Explore the docs »</strong></a>
