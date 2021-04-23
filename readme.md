@@ -9,7 +9,10 @@
 
   <p align="center">
     This project is mainly dedicated to people who are <br>starting in Cybersecurity, especially in the area of Penetration Testing, like me.
-    <br />
+    <br>
+    <br>
+    <small>Project start: 23/04/2021</small>
+    <br/>
     </br>
     <a href="https://github.com/bernardofsr"><strong>Explore the docs »</strong></a>
     <br />
