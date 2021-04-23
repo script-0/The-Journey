@@ -121,8 +121,7 @@ Some of my favorite tools:
 ## Let's Testing
 
 Since this project was designed for people who are starting out in the field, the themes will not be very deep and the only objective is to help learning.
-
-
+<br>
 <!-- Authentication Tests-->
 ### Authentication Tests 🔑
 
