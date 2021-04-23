@@ -113,8 +113,7 @@ Some of my favorite tools:
 <!-- Lets Testing -->
 ## Let's Testing
 
-To get a local copy up and running follow these simple steps.
-
+Since this project was designed for people who are starting out in the field, the themes will not be very deep and the only objective is to help learning.
 
 
 <!-- Authentication Tests-->
