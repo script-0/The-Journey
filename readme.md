@@ -63,7 +63,7 @@ I'm Bernardo Rodrigues and I'm currently a Penetration Tester trainee at <a href
 <p>Getting directly into the Cybersecurity without a working background in the area may not be the easiest situation in the world and perhaps the opportunities will not appear so quickly, but nothing is impossible and I hope you will be able to learn a few things from this project. <p>
 Penetration testing is a specific area of cybersecurity and requires knowledge of existing vulnerabilities and how to exploit them. Later on, links will be added to other projects and articles that may be important in learning and that helped me get into the field.
 
-`The Journey`, `Cybersecurity`, `Pentest`, `Hacking`, `RedTeam`
+`The Journey` `Cybersecurity` `Pentest` `Hacking` `RedTeam`
 
 <br>
 
@@ -119,7 +119,7 @@ Since this project was designed for people who are starting out in the field, th
 <!-- Authentication Tests-->
 ## Authentication Tests 🔑
 
-"Authentication is the process of verifying that an individual, entity or website is whom it claims to be. Authentication in the context of web applications is commonly performed by submitting a username or ID and one or more items of private information that only a given user should know." - OWASP
+"Authentication is the process of verifying that an individual, entity or website is whom it claims to be. Authentication in the context of web applications is commonly performed by submitting a username or ID and one or more items of private information that only a given user should know." - <a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html" target="_blank">OWASP</a>
 
 ```
 1. Credentials or Important Data sent over HTTP
@@ -161,14 +161,25 @@ See what errors are displayed when you try wrong credentials. If the web applica
 An extremely common vulnerability is the lack of sanitization of inputs. When this happens, it is normal to be able to explore XSS or SQL Injection for example.
 
 ```
-1. First try to not activate some type of existent WAF with payloads. 
+1. Understand how application works
+
+First try to not activate some type of existent WAF with payloads. 
 Try what characters are allowed and processed by the Web Application like: / < > ` " '
 
-2. First payload I like to try: "><script>alert("XSS")</script>
 
-3. Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
+2. Test with payload
 
-4. Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for your payload.
+First payload I like to try: "><script>alert("XSS")</script>
+
+
+3. XSS triggered? Maybe we have SQLi
+
+Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
+
+
+4. Bypass HTML security mechanisms
+
+Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change for your payload.
 When we intercept the request, we already bypass the HTML security. 
 ```
 
