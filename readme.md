@@ -35,7 +35,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#my-toolkit">My Toolkit</a></li>
+        <li><a href="#my-toolkit-">My Toolkit</a></li>
       </ul>
     </li>
     <li>
@@ -60,7 +60,7 @@
       <a href="#lets-testing-">Let's Testing</a>
       </li>
       </ul>
-    <li> 
+    <li>
     <a href="#learning-material-">Learning Material</a>
       <ul>
         <li><a href="#awesome-resources-">Awesome Resources</a></li>
@@ -102,8 +102,9 @@ Since this project is directly designed for people who are entering the area of 
 1. Computer fundamentals :computer:
 2. Desire to learn :books:
 3. Coffee :coffee:
+<br>
 
-### My Toolkit 
+### My Toolkit 👨‍🔧
 
 Despite the immensity of existing tools at this moment, after some time some tools will be part of your day to day and are essential for your projects.
 Some of my favorite tools:
