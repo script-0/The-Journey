@@ -132,10 +132,10 @@ Some of my favorite tools:
   ```
   Nuclei
   ```
+##
 
 <br>
 
-##
 
 <!-- Web Application -->
 ## Web Applications 🎯
