@@ -8,7 +8,7 @@
   <h3 align="center">𝒥𝑜𝓊𝓇𝓃𝑒𝓎 𝑜𝓃 𝒫𝑒𝓃𝓉𝑒𝓈𝓉𝒾𝓃𝑔 𝒲𝑜𝓇𝓁𝒹</h3>
 
   <p align="center">
-    This project is mainly dedicated to people who are <br>starting in Cybersecurity, especially in the area of Penetration Testing, like me.
+    This project is mainly dedicated to people who are <br> starting in Cybersecurity, especially in the area of Penetration Testing, like me.
     <br>
     <br>
     <sub>Project start: 23/04/2021</sub>
@@ -39,11 +39,12 @@
       </ul>
     </li>
     <li>
-      <a href="#lets-testing">Let's Testing</a>
+      <a href="#lets-testing-">Let's Testing</a>
       <ul>
         <li><a href="#authentication-tests-">Authentication Tests</a></li>
         <li><a href="#not-sanitized-inputs-">Not Sanitized Inputs</a></li>
         <li><a href="#information-disclosure-on-errors-">Information Disclosure - Error Messages</a></li>
+        <li><a href="#session-management-">Session Management</a></li>
       </ul>
     </li>
     <li>
@@ -122,10 +123,12 @@ Some of my favorite tools:
 
 
 <!-- Lets Testing -->
-## Let's Testing
+## Let's Testing 👨‍🔬
 
-Since this project was designed for people who are starting out in the field, the themes will not be very deep and the only objective is to help learning.
+In this topic, I will show you multiple ways to try to find vulnerabilities related to each topic. It's important before you start to test, you understand what each topic is and the importance for the Web Application. For tests, you can try multiple vulnerable machines existent on the web.
+
 <br>
+
 <!-- Authentication Tests-->
 ### Authentication Tests 🔑
 
@@ -134,7 +137,7 @@ Since this project was designed for people who are starting out in the field, th
 ```
 1. Credentials or Important Data sent over HTTP
 
-Intercept authentication related methods like: Login, Account Registration, Password Recovery and 
+Intercept authentication-related methods like Login, Account Registration, Password Recovery and 
 Password Reset.
 Check for important data sent through HTTP.
 If the information is being sent over HTTPS, change to HTTP and observe if data are sent.
@@ -143,29 +146,29 @@ If the information is being sent over HTTPS, change to HTTP and observe if data 
 2. Weak or Non-Existent Anti Brute-Force Mechanism
 
 Create an account (some mechanism can block the account).
-Intercept login request and sent request to intruder. 
+Intercept login request and sent a request to the Intruder. 
 Use multiple random data and check if you are blocked by any protection mechanism.
-Tip: If after test brute-force mechanism doesn't block the account, try to disclose admin or possible staff 
-email and try most common passwords. This way you make tests for Weakness Mechanisms and Default Passwords 
-in use.
+Tip: If after test brute-force mechanism doesn't block the account, try to disclose admin or possible 
+staff email and try the most common passwords. This way you make tests for Weakness Mechanisms 
+and Default Passwords in use.
 
 
 3. Weak Password Policy
 
-When creating your account for tests, try to set weak passwords like: 12345 or admin.
+When creating your account for tests, try to set weak passwords like 12345 or admin.
 
 
 4. Weak Password Change or Reset
 
-Try to add header X-Forwarded-Host of your own server and see if you receive the request.
-Try X-Forwarded-For and check if after click the link you receive the request on your server.
+Try to add header X-Forwarded-Host of your server and see if you receive the request.
+Try X-Forwarded-For and check if after clicking the link you receive the request on your server.
 
 
 5. Use authentication to enumerate
 
-See what errors are displayed when you try wrong credentials. If the web application show something like: 
-The password is incorrect when you use correct username, but display Wrong Username when you use wrong 
-username, you can performe enumeration of registered usernames. Same with emails.
+See what errors are displayed when you try the wrong credentials. If the web application shows something like: 
+"The password is incorrect" when you use the correct username, but display the "Wrong Username" error when 
+you use the wrong username, you can perform enumeration of registered usernames. Same with emails.
 ```
 
 <br>
@@ -189,12 +192,12 @@ First payload I like to try: "><script>alert("XSS")</script>
 
 3. XSS triggered? Maybe we have SQLi
 
-Whenever I find XSS vulnerability, I try SQL Injection on same parameter.
+Whenever I find an XSS vulnerability, I try SQL Injection on the same parameter.
 
 
 4. Bypass HTML security mechanisms
 
-Sometimes special characters are blocked by HTML, so on forms for example, intercept the request and change 
+Sometimes special characters are blocked by HTML, so on forms, for example, intercept the request and change 
 for your payload.
 When we intercept the request, we already bypass the HTML security. 
 
@@ -202,7 +205,7 @@ When we intercept the request, we already bypass the HTML security.
 5. Multiple vulnerabilities
 
 If you find some input that is not sanitized, you can try multiple types of vulnerabilities. Below you find 
-a list of the vulnerabilities you should learn in order to exploit weakness in inputs sanitization.
+a list of the vulnerabilities you should learn to exploit the weakness in inputs sanitization.
 ```
 **Learn about:** `Types of XSS` `SQL Injection` `HTML Injection` `Server Side Template Injection` 
 `Local File Inclusion` `Command Injection`
@@ -212,11 +215,12 @@ a list of the vulnerabilities you should learn in order to exploit weakness in i
 <!-- Information Errors -->
 ### Information Disclosure - Error Messages 🔡
 
-Errors can give you good information about the plataform, so try to trigger them!
+Errors can give you good information about the platform, so try to trigger them!
+
 ```
 1. Stack Trace in Error Message
 
-Try to put special characters in urls and inputs, and observe de strack trace.
+Try to put special characters in URLs and inputs, and observe the stack trace.
 If you receive SQL errors, you could try SQLi.
 
 
@@ -227,6 +231,36 @@ Error messages should be customized to not show personal information about the p
 Some errors display Internal IP addresses or technology in use like: Apache/2.2.22 (Linux) PHP/7.0.0-1 
 ubuntu3.4 at 192.168.1.30 Port 80
 ```
+
+<br>
+
+<!-- Session Management -->
+### Session Management 🔐
+
+A web session is a sequence of network HTTP request and response transactions associated with the same user. In Web Applications, Session Control is extremely important to protect users. 
+
+```
+1. Check Tokens sent over URL
+
+If the Tokens are going over requests with the GET method and you can see it on the URL, that may be a problem
+for user's privacy and security.
+Use Burp to view all requests and check if Tokens are on the URL. 
+
+
+2. Session keep up after logout
+
+Login on your account, intercept some action with Burp, and sent it to Repeater.
+Logout from the account on Web Application, go to Repeater, and sent the request. If the request is sent with 
+no errors, the application has a problem with Session Logout.
+
+
+3. Password reset link doesn't expire
+
+Request password recovery to your email. Use the link to the recovery password and save the new password.
+Go to email and try to use the same link again. If you can reuse the link, the Web Application is not 
+expiring Reset Password Tokens.
+```
+
 
 <br>
 
@@ -280,20 +314,3 @@ Contributions are what make the open source community such an amazing place to b
 * []()
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
