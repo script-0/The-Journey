@@ -134,7 +134,8 @@ Some of my favorite tools:
   ```
 
 <br>
-<br>
+
+
 <!-- Web Application -->
 ## Web Applications 🎯
 
