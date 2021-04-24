@@ -53,11 +53,11 @@
       </ul>
     </li>
     <li>
-        <a href="#infrastructure">Infrastructure</a>
+        <a href="#infrastructure-">Infrastructure</a>
     </li>
     <ul>
       <li>
-      <a href="#lets-testing-">Let's Testing</a>
+      <a href="#lets-testing-web-apps-">Let's Testing</a>
       </li>
       </ul>
     <li>
@@ -134,15 +134,18 @@ Some of my favorite tools:
   ```
 
 <br>
-
+<br>
 <!-- Web Application -->
-## Web Application 🎯
+## Web Applications 🎯
+
+Web applications are increasingly composed of different types of technologies and it is important to understand a little of each and the different types of vulnerabilities that they can present. 
+The amount of knowledge in each technology, in my opinion, comes directly from experience, which is why it is so important to experiment and test in training environments.
 
 
 <br>
 
 <!-- Lets Testing -->
-## Let's Testing 👨‍🔬
+## Let's Testing Web Apps 👨‍🔬
 
 In this topic, I will show you multiple ways to try to find vulnerabilities related to each topic. It's important before you start to test, you understand what each topic is and the importance for the Web Application. For tests, you can try multiple vulnerable machines existent on the web.
 
@@ -288,6 +291,8 @@ expiring Reset Password Tokens.
 ### Infrastructure 🏢
 
 ### Let's Testing
+
+<br>
 
 <p align="center">
   <a href="https://github.com/bernardofsr">
