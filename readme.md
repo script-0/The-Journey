@@ -316,6 +316,7 @@ In Cybersecurity, we find a community that likes to share its knowledge and it i
 * [Cobalt Blog](https://cobalt.io/blog)
 * [PortSwigger](https://portswigger.net/blog)
 * [PTSwarm](https://swarm.ptsecurity.com/)
+* [David Alves Channel](https://www.youtube.com/channel/UCX2ADIIC5GYNERNSxSerKow)
   
 <p>  
 
