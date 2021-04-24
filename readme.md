@@ -259,6 +259,8 @@ no errors, the application has a problem with Session Logout.
 Request password recovery to your email. Use the link to the recovery password and save the new password.
 Go to email and try to use the same link again. If you can reuse the link, the Web Application is not 
 expiring Reset Password Tokens.
+
+[topic in production]
 ```
 
 
