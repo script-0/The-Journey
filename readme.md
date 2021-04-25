@@ -292,7 +292,7 @@ expiring Reset Password Tokens.
 <!-- Infrastructure -->
 ### Infrastructure 🏢
 
-### Let's Testing Infrastrutures 👨‍🔬
+### Let's Testing Infrastructures 👨‍🔬
 
 <br>
 
