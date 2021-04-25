@@ -242,7 +242,7 @@ a list of the vulnerabilities you should learn to exploit the weakness in inputs
 Errors can give you good information about the platform, so try to trigger them!
 
 ```
-1. Stack Trace in Error Message
+1. Stack Trace in Error Messages
 
 Try to put special characters in URLs and inputs, and observe the stack trace.
 If you receive SQL errors, you could try SQLi.
@@ -298,7 +298,7 @@ expiring Reset Password Tokens.
 
 <p align="center">
   <a href="https://github.com/bernardofsr">
-    <img src="images/uc.jpg" alt="Logo" width="450" height="200">
+    <img src="images/uc.jpg" alt="Logo" width="430" height="200">
   </a>
 
 
