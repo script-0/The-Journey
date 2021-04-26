@@ -7,7 +7,7 @@
   <h3 align="center">𝒥𝑜𝓊𝓇𝓃𝑒𝓎 𝑜𝓃 𝒫𝓎𝓉𝒽𝑜𝓃</h3>
 
   <p align="center">
-    This project serves to place python code while <br>learning this programming language.
+    This project serves to place Python code while <br>learning this programming language.
     <br>
     <br>
     <sub>Project start: 26/04/2021</sub>
