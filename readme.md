@@ -41,9 +41,8 @@
     <li>
       <a href="#web-application-">Web Application</a>
       <ul>
-      <li>
-      <a href="#lets-testing-">Let's Testing</a>
-      </li>
+      <li><a href="#http-status-codes-">HTTP Status Codes</a></li>
+      <li><a href="#lets-testing-">Let's Testing</a></li>
       <ul>
         <li><a href="#authentication-tests-">Authentication Tests</a></li>
         <li><a href="#not-sanitized-inputs-">Not Sanitized Inputs</a></li>
@@ -143,6 +142,18 @@ Some of my favorite tools:
 Web applications are increasingly composed of different types of technologies and it is important to understand a little of each and the different types of vulnerabilities that they can present. 
 The amount of knowledge in each technology, in my opinion, comes directly from experience, which is why it is so important to experiment and test in training environments.
 
+
+<br>
+
+### HTTP Status Codes 🎫
+
+```
+1XX - Information
+2XX - Successful
+3XX - Redirection
+4XX - Client Errors
+5XX - Server Errors
+```
 
 <br>
 
