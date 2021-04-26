@@ -49,10 +49,11 @@
         <li><a href="#information-disclosure-on-errors-">Information Disclosure - Error Messages</a></li>
         <li><a href="#session-management-">Session Management</a></li>
       </ul>
+      <li><a href="#exploiting-common-vulnerabilities-">Exploiting Common Vulnerabilties</a>
       </ul>
     </li>
     <li>
-        <a href="#infrastructure-">Infrastructure</a>
+        <a href="#internal-infrastructure-">Infrastructure</a>
     </li>
     <ul>
       <li>
@@ -78,7 +79,7 @@
 ## About Me 👨‍💻
 
 I'm Bernardo Rodrigues and I'm currently a Penetration Tester trainee at <a href="https://cipher.com">Cipher</a>. 
-<p>From a very early age, I was involved with computers until the taste for hacking was born. Nowadays I practice ethical hacking and I am passionate about offensive security, offensive physical security and social engineering. Everything that involves Red Team.</br>
+<p>From a very early age, I was involved with computers until the taste for hacking was born. Nowadays I practice ethical hacking and I am passionate about offensive cybersecurity, offensive physical security and social engineering. Everything that involves Red Team.</br>
 This is my first professional experience as a Penetration Tester and in the area of Cybersecurity.
 
 <!-- ABOUT THE PROJECT -->
@@ -300,8 +301,27 @@ expiring Reset Password Tokens.
 
 <br>
 
+<!-- Exploiting -->
+### Exploiting Common Vulnerabilties 🐞
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/bernardofsr">
+    <img src="images/uc.jpg" alt="Logo" width="430" height="200">
+  </a>
+
+#
+
+<br>
+
 <!-- Infrastructure -->
-### Infrastructure 🏢
+## Internal Infrastructure 🏢
+
+Internal Infrastructure Pentesting can include the pentesting for internal networks, internal services, associated external devices and employees (social engineering).
+Nowadays, probably the most used technology in an internal network is Active Directory, and that will be one of the focuses of this topic.
+
+<br>
 
 ### Let's Testing Infrastructures 👨‍🔬
 
