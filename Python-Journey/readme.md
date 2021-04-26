@@ -1,4 +1,4 @@
-<br />
+<br/>
 <p align="center">
   <a href="https://github.com/bernardofsr">
     <img src="images/python.png" alt="Logo" width="160" height="160">
