@@ -24,7 +24,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -42,6 +41,7 @@
       <a href="#web-application-">Web Application</a>
       <ul>
       <li><a href="#http-status-codes-">HTTP Status Codes</a></li>
+      <li><a href="#owasp-top-ten-">OWASP - Top Ten</a></li>
       <li><a href="#lets-testing-">Let's Testing</a></li>
       <ul>
         <li><a href="#authentication-tests-">Authentication Tests</a></li>
@@ -154,6 +154,26 @@ The amount of knowledge in each technology, in my opinion, comes directly from e
 3XX - Redirection
 4XX - Client Errors
 5XX - Server Errors
+```
+
+<br>
+
+
+<br>
+
+### OWASP Top Ten 🔟
+
+```
+A1: 2017-Injection
+A2: 2017-Broken Authentication
+A3: 2017-Sensitive Data Exposure
+A4: 2017-XML External Entities (XXE)
+A5: 2017-Broken Access Control
+A6: 2017-Security Misconfiguration
+A7: 2017-Cross-Site Scripting (XSS)
+A8: 2017-Insecure Deserialization
+A9: 2017-Using Components with Known Vulnerabilities
+A10: 2017-Insufficient Logging & Monitoring
 ```
 
 <br>
