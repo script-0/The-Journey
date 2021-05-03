@@ -358,6 +358,7 @@ Nowadays, probably the most used technology in an internal network is Active Dir
 
 
 ### OS Credential Dumping - MITRE ATT&CK
+<br>
 
 **LSASS** - Local Security Authority Subsystem Service
 
@@ -368,10 +369,33 @@ This service is responsible for storing the credentials of users logged into mem
 
 **SAM** - Security Account Manager
 ```
-The SAM file is located at "%systemroot%\system32\config\SAM", and contains usernames and hashed password 
+The SAM file is located at "%systemroot%\system32\config\SAM", and contains usernames and hashed passwords 
 for local accounts.
+Stores Lan Manager (LM) or NT Lan Manager (NTLM/NTHash) hashes of the users passwords.
+Nowadays, NTLM are the types of hashes used in the most recent systems.
+```
+```
+Dumping techniques:
+- Registry: reg.exe can be used to copy HKLM/SAM and HKLM/SECURITY file.
+- In-memory: injecting DLL into the LASS system process.
+- Volume Shadow Copy: Copy of the SAM file from the shadow copy instance.
 ```
 
+<br>
+
+**NTDS** - NT Directory Services
+```
+NTDS.dit is the file related to Active Directory, which serves as a database and stores the AD data.
+Contains: Information about user objects, groups, and group membership. Also contains the password hashes for 
+all user in the domain.
+```
+<br>
+
+**LSA** - Local Security Auhtority
+```
+Stores sensitive user and system information, allowing applications to run with proper privileges.
+This include services accounts credentials, VPN's, and auto-logins.
+```
 <br>
 
 ## Learning Material 👨‍🎓
