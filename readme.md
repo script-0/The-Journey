@@ -357,6 +357,23 @@ Nowadays, probably the most used technology in an internal network is Active Dir
 <br>
 
 
+### OS Credential Dumping - MITRE ATT&CK
+
+**LSASS** - Local Security Authority Subsystem Service
+
+```
+This service is responsible for storing the credentials of users logged into memory.
+```
+<br>
+
+**SAM** - Security Account Manager
+```
+The SAM file is located at "%systemroot%\system32\config\SAM", and contains usernames and hashed password 
+for local accounts.
+```
+
+<br>
+
 ## Learning Material 👨‍🎓
 In Cybersecurity, we find a community that likes to share its knowledge and it is easy to find a lot of interesting material, below you can find some topics with learning resources and tools.
 
