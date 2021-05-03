@@ -59,6 +59,9 @@
       <li>
       <a href="#lets-testing-infrastructures-">Let's Testing</a>
       </li>
+      <ul>
+      <li><a href="#os-credential-dumping---mitre-attck-">OS Credential Dumping - MITRE ATT&CK</li>
+      </ul>
       </ul>
     <li>
     <a href="#learning-material-">Learning Material</a>
@@ -357,7 +360,7 @@ Nowadays, probably the most used technology in an internal network is Active Dir
 <br>
 
 
-### OS Credential Dumping - MITRE ATT&CK
+### OS Credential Dumping - MITRE ATT&CK 🎣
 <br>
 
 **LSASS** - Local Security Authority Subsystem Service
