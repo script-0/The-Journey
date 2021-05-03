@@ -361,6 +361,9 @@ Nowadays, probably the most used technology in an internal network is Active Dir
 
 
 ### OS Credential Dumping - MITRE ATT&CK 🎣
+
+
+Notes from "MITRE ATT&CK - OS Credential Dumping" by Picus Security.
 <br>
 
 **LSASS** - Local Security Authority Subsystem Service
@@ -399,6 +402,15 @@ all user in the domain.
 Stores sensitive user and system information, allowing applications to run with proper privileges.
 This include services accounts credentials, VPN's, and auto-logins.
 ```
+```
+LSA secrets can be dumped using Mimikatz: lsadump::secrets
+```
+<br>
+
+### Red Team Examples
+
+
+
 <br>
 
 ## Learning Material 👨‍🎓
