@@ -440,9 +440,8 @@ Some methods for dump credentials using native operating system files.
 ##### From Registry
 1. Extracting SAM from registry:
    `reg.exe save hklm\sam c:\temp\sam.save`
+#
 
-
-<br>
 
 ### Process Injection - MITRE ATT&CK 💉
 
