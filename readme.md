@@ -418,6 +418,7 @@ LSA secrets can be dumped using Mimikatz: lsadump::secrets
 
 ### Red Team Examples
 <br>
+
 #### Copy SAM file from shadows
 
 1. Create shadow copy: 
