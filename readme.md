@@ -365,6 +365,7 @@ Nowadays, probably the most used technology in an internal network is Active Dir
 
 Notes from "MITRE ATT&CK - OS Credential Dumping" by Picus Security.
 <br>
+<br>
 
 **LSASS** - Local Security Authority Subsystem Service
 
