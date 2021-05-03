@@ -444,6 +444,31 @@ Some methods for dump credentials using native operating system files.
 
 <br>
 
+### Process Injection - MITRE ATT&CK 💉
+
+Notes from "MITRE ATT&CK - OS Credential Dumping" by Picus Security.
+<br>
+
+**Process Injection** consists in inject malicious code into applications or processes that are usually trusted by the user.
+
+```
+Running arbitrary code
+Enabling access to the target process:
+ 1. memory
+ 2. system
+ 3. network resources
+```
+<br>
+
+**Most common** injected processes:
+
+Windows native processes: `explorer.exe` `svchost.exe` `dllhost.exe` `services.exe` `rundll32.exe` `csc.exe` `cmd.exe`
+
+Processes common software: `iexplorer.exe` `opera.exe` `chrome.exe` `outlook.exe` `firefox.exe` `ieuser.exe`
+
+<br>
+
+
 ## Learning Material 👨‍🎓
 In Cybersecurity, we find a community that likes to share its knowledge and it is easy to find a lot of interesting material, below you can find some topics with learning resources and tools.
 
