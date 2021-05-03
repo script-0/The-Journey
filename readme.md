@@ -61,6 +61,7 @@
       </li>
       <ul>
       <li><a href="#os-credential-dumping---mitre-attck-">OS Credential Dumping - MITRE ATT&CK</li>
+      <li><a href="#process-injection---mitre-attck-">Process Injection - MITRE ATT&CK</li>
       </ul>
       </ul>
     <li>
