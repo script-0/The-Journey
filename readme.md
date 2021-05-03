@@ -417,6 +417,7 @@ LSA secrets can be dumped using Mimikatz: lsadump::secrets
 <br>
 
 ### Red Team Examples
+Some methods for dump credentials using native operating system files.
 <br>
 
 #### Copy SAM file from shadows
