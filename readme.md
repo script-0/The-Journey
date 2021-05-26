@@ -48,6 +48,8 @@
         <li><a href="#not-sanitized-inputs-">Not Sanitized Inputs</a></li>
         <li><a href="#information-disclosure-on-errors-">Information Disclosure - Error Messages</a></li>
         <li><a href="#session-management-">Session Management</a></li>
+        <li><a href="#business-logic-">Business Logic</a></li>
+        <li><a href="#upload-bypass-">Upload Bypass</a></li>
       </ul>
       <li><a href="#exploiting-common-vulnerabilities-">Exploiting Common Vulnerabilties</a>
       </ul>
@@ -322,11 +324,52 @@ expiring Reset Password Tokens.
 
 [topic in production]
 ```
+<br>
+
+<!-- Business Logic -->
+### Business Logic 👔
+
+The vulnerabilities of business logic, are all those that go against the normal workflow that a company would have in the process of a certain action.
+
+```
+1. Negative numbers
+
+When the Web Application uses transaction or shop carts for example, try to use negative numbers. Using burp, 
+intercept and change the integer to a negative number and see the response.  
+
+[topic in production]
+
+```
+<br>
+
+<!-- Upload Bypass -->
+### Upload Bypass 📤
+
+Is an attempt to bypass the security mechanisms related to the file upload functionality. It can be in the type of file (file extension) or in its maximum size.
+
+```
+1. Try upload a large file
+
+If the application allows you to upload a large file in a section where a small file was expected, this can 
+lead to a DoS in the application. For example, the application expects a PDF file and allows you to upload a
+file that is 1GB in size.
+
+
+2. Try bypass the allowed files extension
+
+Upload a file with a different extension and try to change it on burp suite.
+Imagine that the application only allows you to upload a PNG file. Create a shell in PHP and rename it to 
+"shell.php.png" and intercept the upload request in the burp. Change the file name to "shell.php" in the 
+request and forward to the request.
+For these types of situations, it is important to understand which directory the files are sent to, and 
+whether we have access to them.
+```
 
 <br>
 
 <!-- Exploiting -->
 ### Exploiting Common Vulnerabilties 🐞
+
 
 <br>
 
