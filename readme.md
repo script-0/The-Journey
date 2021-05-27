@@ -45,13 +45,13 @@
       <li><a href="#lets-testing-">Let's Testing</a></li>
       <ul>
         <li><a href="#authentication-tests-">Authentication Tests</a></li>
-        <li><a href="#not-sanitized-inputs-">Not Sanitized Inputs</a></li>
-        <li><a href="#information-disclosure-on-errors-">Information Disclosure - Error Messages</a></li>
+        <li><a href="#weak-or-non-existent-sanitization-">Not Sanitized Inputs</a></li>
+        <li><a href="#information-disclosure---error-messages-">Information Disclosure - Error Messages</a></li>
         <li><a href="#session-management-">Session Management</a></li>
         <li><a href="#business-logic-">Business Logic</a></li>
         <li><a href="#upload-bypass-">Upload Bypass</a></li>
       </ul>
-      <li><a href="#exploiting-common-vulnerabilities-">Exploiting Common Vulnerabilties</a>
+      <li><a href="#exploiting-common-vulnerabilties-">Exploiting Common Vulnerabilties</a>
       </ul>
     </li>
     <li>
